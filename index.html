@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>TechTalk | Groupe Informatique</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+    <header class="header">
+
+        <div class="logo">
+            💻 Tech<span>Talk</span>
+        </div>
+
+        <nav class="navbar">
+            <a href="#accueil">Accueil</a>
+            <a href="#discussions">Discussions</a>
+            <a href="#quiz">Quiz</a>
+            <a href="#classement">Classement</a>
+        </nav>
+
+        <button class="theme-btn" id="themeBtn">
+            🌙
+        </button>
+
+    </header>
+
+
+    <!-- ================= ACCUEIL ================= -->
+    <main>
+
+        <section id="accueil" class="hero">
+
+            <div class="hero-content">
+
+                <p class="welcome">👋 Bienvenue dans notre communauté</p>
+
+                <h1>
+                    Apprenons, discutons<br>
+                    et <span>progressons ensemble.</span>
+                </h1>
+
+                <p class="hero-text">
+                    Un espace pour les passionnés d'informatique,
+                    les développeurs et tous ceux qui veulent apprendre
+                    les nouvelles technologies.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#discussions" class="btn primary">
+                        💬 Rejoindre les discussions
+                    </a>
+
+                    <a href="#quiz" class="btn secondary">
+                        🧠 Faire le quiz
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= STATISTIQUES ================= -->
+
+        <section class="stats">
+
+            <div class="stat-card">
+                <strong>24</strong>
+                <span>Membres</span>
+            </div>
+
+            <div class="stat-card">
+                <strong>56</strong>
+                <span>Discussions</span>
+            </div>
+
+            <div class="stat-card">
+                <strong>120</strong>
+                <span>Questions</span>
+            </div>
+
+            <div class="stat-card">
+                <strong>8</strong>
+                <span>Défis</span>
+            </div>
+
+        </section>
+
+
+        <!-- ================= DISCUSSIONS ================= -->
+
+        <section id="discussions" class="section">
+
+            <div class="section-title">
+
+                <p>💬 COMMUNAUTÉ</p>
+
+                <h2>Dernières discussions</h2>
+
+                <span>
+                    Partage tes idées et apprends avec les autres membres.
+                </span>
+
+            </div>
+
+
+            <div class="posts">
+
+                <!-- POST 1 -->
+
+                <article class="post">
+
+                    <div class="post-header">
+
+                        <div class="avatar">PM</div>
+
+                        <div>
+                            <h3>Pierre</h3>
+                            <small>Il y a 20 minutes</small>
+                        </div>
+
+                    </div>
+
+                    <h2>
+                        Quel langage de programmation
+                        devrions-nous apprendre en premier ?
+                    </h2>
+
+                    <p>
+                        Selon vous, quel langage est le meilleur
+                        pour commencer la programmation ?
+                    </p>
+
+                    <div class="post-actions">
+
+                        <button class="like-btn">
+                            👍 <span>12</span>
+                        </button>
+
+                        <button>
+                            💬 5 commentaires
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- POST 2 -->
+
+                <article class="post">
+
+                    <div class="post-header">
+
+                        <div class="avatar blue">JD</div>
+
+                        <div>
+                            <h3>Jean</h3>
+                            <small>Il y a 1 heure</small>
+                        </div>
+
+                    </div>
+
+                    <h2>
+                        HTML, CSS ou JavaScript ?
+                    </h2>
+
+                    <p>
+                        Si vous deviez choisir une seule technologie
+                        pour commencer le développement web, laquelle choisiriez-vous ?
+                    </p>
+
+                    <div class="post-actions">
+
+                        <button class="like-btn">
+                            👍 <span>8</span>
+                        </button>
+
+                        <button>
+                            💬 3 commentaires
+                        </button>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= QUIZ ================= -->
+
+        <section id="quiz" class="section quiz-section">
+
+            <div class="section-title">
+
+                <p>🧠 TECH CHALLENGE</p>
+
+                <h2>Teste tes connaissances</h2>
+
+                <span>
+                    Réponds aux questions et gagne des points.
+                </span>
+
+            </div>
+
+
+            <div class="quiz-card">
+
+                <div class="quiz-top">
+
+                    <span>Question 1 / 5</span>
+
+                    <span>🏆 0 points</span>
+
+                </div>
+
+
+                <h2>
+                    Quel langage est principalement utilisé
+                    pour structurer une page web ?
+                </h2>
+
+
+                <div class="answers">
+
+                    <button class="answer">
+                        A. Python
+                    </button>
+
+                    <button class="answer correct-answer">
+                        B. HTML
+                    </button>
+
+                    <button class="answer">
+                        C. Java
+                    </button>
+
+                    <button class="answer">
+                        D. SQL
+                    </button>
+
+                </div>
+
+
+                <button class="quiz-submit">
+                    Valider ma réponse →
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CLASSEMENT ================= -->
+
+        <section id="classement" class="section">
+
+            <div class="section-title">
+
+                <p>🏆 COMPÉTITION</p>
+
+                <h2>Classement des membres</h2>
+
+                <span>
+                    Les membres qui accumulent le plus de points.
+                </span>
+
+            </div>
+
+
+            <div class="ranking">
+
+                <div class="rank">
+                    <strong>🥇</strong>
+                    <span>Jean</span>
+                    <b>850 pts</b>
+                </div>
+
+                <div class="rank">
+                    <strong>🥈</strong>
+                    <span>Pierre</span>
+                    <b>720 pts</b>
+                </div>
+
+                <div class="rank">
+                    <strong>🥉</strong>
+                    <span>Marie</span>
+                    <b>640 pts</b>
+                </div>
+
+                <div class="rank">
+                    <strong>4</strong>
+                    <span>David</span>
+                    <b>510 pts</b>
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <div class="logo">
+            💻 Tech<span>Talk</span>
+        </div>
+
+        <p>
+            Une communauté pour apprendre, partager et progresser.
+        </p>
+
+        <p>
+            © 2026 TechTalk — Projet informatique
+        </p>
+
+    </footer>
+
+
+    <!-- JAVASCRIPT -->
+
+    <script src="script.js"></script>
+
+</body>
+  </html>
